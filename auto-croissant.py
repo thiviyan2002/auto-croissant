@@ -1,0 +1,15 @@
+def main():
+    v1=int(input("Donner la première valeur"))
+    v2=int(input("Donner la deuxième valeur"))
+    v3=int(input("Donner la troixième valeur"))
+    v4=int(input("Donner la quatrième valeur"))
+    v5=int(input("Donner la cinquième valeur"))
+    print("-----------------------------")
+    valeur = ([v1]+[v2]+[v3]+[v4]+[v5])
+    print("les valeur entrer: ", valeur)
+    print("-----------------------------")
+    resultatvaleur = sorted(valeur)
+    print("resultat: ", resultatvaleur)
+    print("-----------------------------")
+
+if __name__=='__main__': main()
